@@ -6,6 +6,7 @@
   --primary-dark: #647a65;
   --primary-foreground: #fffefa;
   --secondary: #e2e9df;
+  --secondary-foreground: #4c6250;
   --muted: #efeee8;
   --muted-foreground: #777168;
   --wood: #d3b99a;
@@ -381,6 +382,12 @@ h1, h2, h3 {
   font-size: 0.75rem;
   letter-spacing: 0.13em;
   text-transform: uppercase;
+}
+.result-amount {
+  margin: 1rem 0;
+  color: var(--secondary-foreground);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
 }
 .site-footer {
   padding-block: 4rem 2rem;
